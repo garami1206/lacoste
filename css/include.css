@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{background: #F6F9F5; height: 180px;text-align: center; }
+#header h1{line-height: 180px;height: 100%; }
+#header h1 a{}
+#header h1 img{vertical-align: middle;}
+
+#header .inner{ position: relative;}
+
+.gnb{position: absolute;top: 50%;}
+.gnb a{color: #000;}
+.gnb li{ width: 135px;}
+.gnb li:hover a{font-weight: 900; width: 200px;}
+
+.gnbL li{float: left; margin-right: 20px; }
+.gnbL li:first-child a{color: hotpink;}
+
+.gnbR{right: 0;}
+.gnbR li{float: left; margin-left: 20px;}
+.gnbR .only a{color: #D2A51C}
