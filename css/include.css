@@ -19,3 +19,17 @@
 .gnbR{right: 0;}
 .gnbR li{float: left; margin-left: 20px;}
 .gnbR .only a{color: #D2A51C}
+
+/*푸터*/
+#footer{background: url(../images/fLogo.png) no-repeat 60px center; font-size: 11px; height: 100px; position: relative; width: 1760px; margin: 0 auto;
+border-top:1px solid #ccc; padding-top: 20px; margin-top: 400px;}
+
+.fMenu{float: right; }
+.fMenu li{float:left; margin-left: 15px;}
+.fMenu li a{color: #000; font-size: 12px;}
+
+.fInfo{position: absolute; right: 0px; bottom: 10px;text-align: right; color: #444141; font-weight: 200;}
+.fInfo li{float: left;}
+.fInfo li:after{content: ""; display: inline-block; width: 1px; height: 9px; background: #444141; margin: 0 4px ;}
+.fInfo li:last-child:after{display: none;}
+.fInfo01{float: right;}

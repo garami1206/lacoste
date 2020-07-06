@@ -35,7 +35,7 @@
     .con03Img li:first-child{background: url(../images/con03Img01.png);}
         .con03Img li:first-child p{padding-top: 330px;}
     .con03Img02 {background: url(../images/con03Img02.png);}
-    .con03Img li:last-child{background: url(../images/con03Img03.png);}
+    .con03Img li:last-child{background: url(../images/con03Img03.png);width: 399px;}
         .con03Img li:last-child a{color: #fff;}
 
 .con03Arrow{position: absolute;top:50%; background: url(../images/con03Arrow.png) no-repeat; width: 125px; height: 145px; text-indent: -9999px; }
@@ -63,3 +63,16 @@
 .con04Slider li{float: left; background: url(../images/con04Slider.png) no-repeat; width: 45px; height: 21px; text-indent: -9999px;}
 .con04Slider li:first-child{background-position: -105px;}
 .con04Slider li a{display: block;}
+
+/*컨텐츠5*/
+.mainCon05{position: relative; height: 1360px; margin-top: 400px;}
+.mainCon05 img{position: absolute;}
+    .greenBox{width: 710px; height: 620px; background: #60755A; float: right;}
+    .con05img01{top: 100px;}
+    .con05img02{top: 300px; left: 50%; margin-left: -245px;}
+    .con05img03{top: 500px; right: 0;}
+
+    .con05Txt{width: 690px; height: 620px; background: rgba(240,240,240,0.5); position: absolute; bottom: 0; padding-left: 20px;}
+        .con05Txt h5{font-size: 40px; border-bottom: 2px solid #000;padding: 250px 0 30px; font-weight: 800; width: 680px;}
+        .con05Txt p{font-size: 18px; font-weight: 200; padding: 30px 0 80px; letter-spacing: -1px;}
+        .con05Txt a{font-size: 16px; color: #000; font-weight: 500; float: right; padding-right: 30px;}
